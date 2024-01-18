@@ -1,0 +1,20 @@
+{
+    "name": "kaleyra/phpagi",
+    "type": "library",
+    "description": "PHPAGI is a PHP class for the Asterisk Gateway Interface. The package is available for use and distribution under the terms of the GNU Public License.",
+    "keywords": ["asterisk","agi","client","call","flow","ivr","telephony","voip"],
+    "license": "LGPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Narasimha chandu",
+            "email": "narasimha.chandu@kaleyra.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload" : {
+        "files" : ["phpagi.php"]
+     }
+}
